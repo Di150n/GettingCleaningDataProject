@@ -2,7 +2,7 @@
 
 This code book describes the data fields in `tidy.txt` file.
 
-##The Source Data
+## The Source Data
 
 The tidy.txt data set is a combination of the following files:
 
@@ -15,7 +15,7 @@ The tidy.txt data set is a combination of the following files:
 7. features.txt
 8. activity_labels
 
-##Transformation Steps
+## Transformation Steps
 1. Merges the training and the test sets to create one data set.
   * Read in the data into the test and training sets
   * Bind the rows for each of the data sets together
@@ -34,7 +34,7 @@ The tidy.txt data set is a combination of the following files:
   * Cast the data getting the mean value
   * Write the data out to a file
 
-##Variables
+## Variables
 There are **68 variables total**. 
 The first two variables are used to aggregate the data by:
 
@@ -48,7 +48,7 @@ The first two variables are used to aggregate the data by:
    - STANDING
    - LAYING
 
-###The Full List of Variables
+### The Full List of Variables
 
 Index  | Variable Name
 ------ | -------------
